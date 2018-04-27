@@ -14,6 +14,7 @@ $(document).ready(function(e) {
         });
     }
     function mostrar(e) {
+        console.log("entro")
         $(".cajaexterna").show();
         darEfecto("bounceIn");      
     }
@@ -26,6 +27,6 @@ $(document).ready(function(e) {
         }
         });         
     }
-    $("a.mostrarmodal").click(mostrar);
-    $("a.cerrarmodal").click(ocultar);
+    $("#curso1").click(mostrar);
+    $("#cierracurso1").click(ocultar);
 }); 
