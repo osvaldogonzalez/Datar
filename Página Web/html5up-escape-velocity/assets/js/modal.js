@@ -14,7 +14,7 @@ $(document).ready(function(e) {
         });
     }
     function mostrar(e) {
-        console.log("entro")
+
         $(".cajaexterna").show();
         darEfecto("bounceIn");      
     }
@@ -27,6 +27,49 @@ $(document).ready(function(e) {
         }
         });         
     }
+
+    function mostrar2(e) {
+        
+                $(".cajaexterna2").show();
+                darEfecto("bounceIn");      
+            }
+            function ocultar2() {
+                $(".cajaexterna2").fadeOut("fast", function() {
+                    if(mozillaPresente) {
+                    setTimeout(function() {
+                        $(".cajainterna2").removeClass("bounceIn");
+                    }, 5);
+                }
+                });         
+            }
+
+            function mostrar3(e) {
+                
+                        $(".cajaexterna3").show();
+                        darEfecto("bounceIn");      
+                    }
+                    function ocultar3() {
+                        $(".cajaexterna3").fadeOut("fast", function() {
+                            if(mozillaPresente) {
+                            setTimeout(function() {
+                                $(".cajainterna3").removeClass("bounceIn");
+                            }, 5);
+                        }
+                        });         
+                    }
+
+
     $("#curso1").click(mostrar);
     $("#cierracurso1").click(ocultar);
+
+
+
+    $("#curso2").click(mostrar2);
+    $("#cierracurso2").click(ocultar2);
+
+
+
+    $("#curso3").click(mostrar3);
+    $("#cierracurso3").click(ocultar3);
+    
 }); 

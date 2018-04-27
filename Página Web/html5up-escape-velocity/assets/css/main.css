@@ -2765,6 +2765,40 @@ table-layout: fixed;
         margin: 6em auto 0;
         position: relative;
         width: 90%;
+	}
+	.cajaexterna2 {
+        background-color: rgba(0, 0, 0, 0.5);
+        bottom: 0;
+        display: none;
+        left: 0;
+        overflow: auto;
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 1000;
+    }
+    .cajainterna2 {
+        background: #fff;
+        margin: 6em auto 0;
+        position: relative;
+        width: 90%;
+	}
+	.cajaexterna3 {
+        background-color: rgba(0, 0, 0, 0.5);
+        bottom: 0;
+        display: none;
+        left: 0;
+        overflow: auto;
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 1000;
+    }
+    .cajainterna3 {
+        background: #fff;
+        margin: 6em auto 0;
+        position: relative;
+        width: 90%;
     }
     .cajacentrada {
         margin: 0 auto;
