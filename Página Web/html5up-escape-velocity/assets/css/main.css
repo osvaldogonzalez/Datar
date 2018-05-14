@@ -1637,8 +1637,9 @@ ol.default li {
 }
 
 #header-wrapper {
-    background: url('../../images/banner.jpg') center center;
-    background-size: cover;
+    background: url('../../images/datar.png') center center;
+    background-size: 80% ;
+    background-repeat: repeat;
 }
 
 #header-wrapper:before {
@@ -1812,7 +1813,7 @@ ol.default li {
 #copyright ul {
     display: inline-block;
     border-radius: 0.35em;
-    box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.05);
+   /* box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.05);*/
     color: #aaa;
     color: rgba(255, 255, 255, 0.25);
 }
@@ -2037,7 +2038,7 @@ ol.default li {
     #nav>ul {
         display: inline-block;
         border-radius: 0.35em;
-        box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+       /* box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);*/
         padding: 0 1.5em 0 1.5em;
     }
     #nav>ul>li {
@@ -2052,10 +2053,11 @@ ol.default li {
     #nav>ul>li>span {
         display: block;
         color: #eee;
-        color: rgba(255, 255, 255, 0.75);
+        color: rgba(255, 255, 255, 0.884);
         text-transform: uppercase;
         text-decoration: none;
-        font-size: 0.7em;
+        font-size: 0.8em;
+        font-weight: bold;
         letter-spacing: 0.25em;
         height: 5em;
         line-height: 5em;
@@ -2245,7 +2247,7 @@ ol.default li {
     }
     /* Header */
     #header {
-        padding: 10em 0;
+        padding: 10em 0 
     }
     .homepage #header {
         padding: 14em 0;
@@ -2314,7 +2316,7 @@ ol.default li {
         display: none;
     }
     header.style1 {
-        padding: 0 0 1em 0;
+        padding: 0 0 1em 0!important;
     }
     header.style1 h2 {
         font-size: 1.5em;
@@ -2324,6 +2326,11 @@ ol.default li {
     header.style1 p {
         display: block;
         margin: 0;
+    }
+    #header-wrapper {
+        background: url('../../images/datar.png') center center;
+        background-size: 90%;
+
     }
     /* Button */
     input,
@@ -2537,7 +2544,7 @@ ol.default li {
     }
     /* Wrappers */
     .wrapper {
-        padding: 15px 15px 5em 15px;
+        padding: 6em 2em 6em 2em;
     }
     .wrapper .title {
         font-size: 0.9em;
@@ -2555,7 +2562,7 @@ ol.default li {
         bottom: -15px;
         background-size: 100% 100%;
     }
-    #header-wrapper {
+    #header-wrappebannerr {
         padding: 6em 2em 6em 2em;
     }
     #footer-wrapper {
@@ -2568,6 +2575,7 @@ ol.default li {
     /* Logo */
     #logo {
         text-align: center;
+        
     }
     #logo h1 {
         font-size: 1.5em;
